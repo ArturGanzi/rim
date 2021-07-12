@@ -1,5 +1,5 @@
 function load_home () {
-    fetch("/download-free-games/spirit-of-the-ancient-forest/" /*, options */)
+    fetch("/download-free-games/dragon-keeper/screenshots.html" /*, options */)
     .then((response) => response.text())
     .then((html) => {
         document.querySelector("html").innerHTML = html;
