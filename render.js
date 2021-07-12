@@ -1,5 +1,5 @@
 function load_home () {
-    fetch("/" /*, options */)
+    fetch("/genres/shooting-games/" /*, options */)
     .then((response) => response.text())
     .then((html) => {
         document.querySelector("html").innerHTML = html;
